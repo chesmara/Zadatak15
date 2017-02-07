@@ -31,7 +31,7 @@ public class SecondActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activit_second);
+        setContentView(R.layout.activity_second_linear);
 
 
         final int position = getIntent().getIntExtra("position", 0);
